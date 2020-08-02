@@ -19,6 +19,8 @@ import Box from "@material-ui/core/Box";
 import Paper from "@material-ui/core/Paper";
 import WbSunnyIcon from "@material-ui/icons/WbSunny";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
+import NavFooter from "./components/NavFooter";
+import LinkList from "./components/LinkList";
 
 const drawerWidth = 240;
 
@@ -79,6 +81,14 @@ function ResponsiveDrawer(props) {
       <div style={{ direction: "flex" }}>
         {styleIcon}
         <Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)} />
+      </div>
+      <div style={{ width: "100%", textAlign: "center" }}>
+        <Divider />
+        <LinkList />
+      </div>
+      <div style={{ position: "fixed", bottom: 0 }}>
+        <Divider />
+        <NavFooter />
       </div>
     </div>
   );
