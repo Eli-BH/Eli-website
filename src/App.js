@@ -15,7 +15,7 @@ import { Switch } from "@material-ui/core";
 
 import Toolbar from "@material-ui/core/Toolbar";
 import Box from "@material-ui/core/Box";
-import Paper from "@material-ui/core/Paper";
+
 import WbSunnyIcon from "@material-ui/icons/WbSunny";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
 import NavFooter from "./components/NavFooter";
@@ -27,7 +27,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Photography from "./components/Photography";
 import SideNavPhoto from "./components/SideNavPhoto";
-import Smile from "./components/Smile";
 
 const drawerWidth = 240;
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./homeText.css";
+import Slide from "react-reveal/Slide";
 
 const Home = () => {
   return (
@@ -33,12 +34,15 @@ const Home = () => {
           alt=""
         />
       </picture>
-      <div className="homeText">
-        <h1>
-          <span id="hw">Hello World!</span> I'm Eli Henderson
-        </h1>
-        <h2>Software Developer | Photographer | Learner</h2>
-      </div>
+
+      <Slide left>
+        <div className="homeText">
+          <h1>
+            <span id="hw">Hello World!</span> I'm Eli Henderson
+          </h1>
+          <h3 className="htag">Software Developer | Photographer | Learner</h3>
+        </div>
+      </Slide>
     </div>
   );
 };
