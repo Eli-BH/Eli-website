@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea&family=Philosopher:wght@700&family=Rajdhani:wght@500&family=Trirong:wght@500&display=swap");
+#abt-typ1 {
+  font-size: 2em;
+  font-weight: lighter;
+  padding: 0.5em;
+  margin-top: 3%;
+}
+#abt-intr {
+  margin-top: 3%;
+  font-weight: lighter;
+  color: #d0d0e1;
+}
+
+#eli {
+  font-family: "Trirong", serif;
+  font-weight: bold;
+}
+
+#abt-typ2 {
+  font-size: 2em;
+  font-weight: lighter;
+  padding: 0.5em;
+  margin-top: 1.5em;
+}
+#abt-head {
+  font-size: 4em;
+  font-family: "Philosopher", sans-serif;
+}
+
+.abt-typ {
+  margin-top: 8%;
+}
+
+.abt-eq {
+  margin-left: 400px;
+}
+
+@media screen and (max-width: 520px) {
+  #abt-typ1 {
+    font-size: 1.2em;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: medium;
+    padding: 0.5em;
+  }
+
+  #abt-typ2 {
+    font-size: 1.2em;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: medium;
+    padding: 0.5em;
+  }
+
+  #abt-head {
+    font-size: 3em;
+    font-family: "Philosopher", sans-serif;
+  }
+  .abt-typ {
+    margin-top: 5%;
+  }
+
+  #abt-int {
+    margin-top: 100px;
+  }
+
+  .div reactrevel {
+    padding: 0;
+  }
+}

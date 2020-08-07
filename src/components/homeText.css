@@ -1,27 +1,44 @@
 .homeText {
+  text-align: center;
   color: white;
   position: absolute;
-  top: 70%;
-  left: 10%;
+  top: 50%;
+  left: 15%;
   transform: translate(-50%, -50%);
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px black;
+  font-size: 3em;
 }
 #hw {
-  display: none;
+  display: contents;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (max-width: 1050px) {
   .homeText {
     text-align: center;
     color: white;
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 70%;
+    left: 30%;
     transform: translate(-50%, -50%);
     text-shadow: 4px 4px black;
-    font-size: 3em;
+    font-size: 1.5em;
   }
   #hw {
     display: contents;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homeText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px black;
+    font-size: 1em;
+  }
+  #hw {
+    display: none;
   }
 }

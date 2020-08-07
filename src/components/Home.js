@@ -17,7 +17,7 @@ const Home = () => {
           }}
         />
         <source
-          media="(max-width: 650px)"
+          media="(max-width: 1050px)"
           srcset="https://i.imgur.com/KgMSiXU.jpg"
           style={{
             width: "100%",
@@ -37,10 +37,10 @@ const Home = () => {
 
       <Slide left>
         <div className="homeText">
-          <h1>
+          <h1 key="hello-world">
             <span id="hw">Hello World!</span> I'm Eli Henderson
           </h1>
-          <h3 className="htag">Software Developer | Photographer | Learner</h3>
+          <h3 className="htag">Software Developer | Photographer </h3>
         </div>
       </Slide>
     </div>

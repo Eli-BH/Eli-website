@@ -27,6 +27,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Photography from "./components/Photography";
 import SideNavPhoto from "./components/SideNavPhoto";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const drawerWidth = 240;
 
@@ -40,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   drawer: {
-    [theme.breakpoints.up("sm")]: {
+    [theme.breakpoints.up("md")]: {
       width: drawerWidth,
       flexShrink: 0,
     },

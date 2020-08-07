@@ -1,0 +1,28 @@
+.formCtl {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content: space-between;
+  padding: 4rem;
+}
+
+#jd:focus {
+  color: green;
+  border-color: green;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Gudea&family=Philosopher:wght@700&family=Rajdhani:wght@500&family=Trirong:wght@500&display=swap");
+
+#cntct-head {
+  font-size: 3em;
+  font-family: "Philosopher", sans-serif;
+}
+
+@media screen and (min-width: 1500px) {
+  #ctct-hd {
+    margin-top: 200px;
+  }
+}
